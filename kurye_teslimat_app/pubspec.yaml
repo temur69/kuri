@@ -1,0 +1,23 @@
+name: kurye_app
+description: Komple Motor Kurye, Musteri ve Yonetim Platformu.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  url_launcher: ^6.2.5
+  flutter_local_notifications: ^17.1.0
+  audioplayers: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
